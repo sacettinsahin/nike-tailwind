@@ -1,9 +1,10 @@
 import { useState } from "react";
 import {bigShoe1} from "../assets/images"
-import {arrowRight} from "../assets/icons"
+
 import Button from "../components/Button"
 import {statistics, shoes} from "../constants/index"
 import ShoeCard from "../components/ShoeCard";
+import { arrowRight } from "../assets/icons";
 
 
 const Hero = () => {
